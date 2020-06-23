@@ -228,6 +228,9 @@ footer {
   justify-content: center;
   padding-bottom: 10%;
 }
+footer nav {
+  padding-bottom: 100%;
+}
 footer nav a {
   display: block;
   color: black;
@@ -250,14 +253,6 @@ footer nav a {
 }
 html {
   background-image: url(https://images.unsplash.com/photo-1592438938203-f8a7d9b8e26a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80);
-  background-position: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
-}
-html .tres {
-  background-image: url(https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80);
   background-position: fixed;
   background-repeat: no-repeat;
   background-size: cover;
