@@ -316,16 +316,14 @@ body .title-container nav a {
   }
 }
 .team-container {
-  display: inline-block;
-  flex-direction: row;
   background: rgba(0, 0, 0, 0.8);
-  color: #1DB954;
+  color: white;
   border: solid 1.5px #1DB954;
   border-radius: 20px;
   margin-bottom: 5%;
-  margin-left: 25%;
-  margin-right: 15%;
-  padding-top: 10%;
+  margin-left: 15%;
+  margin-right: 20%;
+  padding-top: 5%;
   padding-bottom: 10%;
   align-content: center;
 }
@@ -333,16 +331,25 @@ body .title-container nav a {
   font-size: 2rem;
   padding-bottom: 2%;
   text-align: center;
+  border-bottom: dotted 1px white;
 }
-.team-container p {
-  text-align: center;
-  font-size: 1.2rem;
-  padding-top: 3%;
-  padding-bottom: 3%;
+.team-container .member1 {
+  display: flex;
+  padding-top: 5%;
+  padding-left: 10%;
+  align-content: center;
+  border-bottom: dotted 1px white;
+  padding-bottom: 5%;
 }
-.team-container img {
+.team-container .member1 p {
+  color: white;
+  padding-left: 10%;
+  padding-right: 15%;
+  font-size: 1.6rem;
+  font-stretch: 5%;
+}
+.team-container .member1 img {
   width: 20%;
   height: 20%;
   border-radius: 25%;
-  margin-left: 20%;
 }
