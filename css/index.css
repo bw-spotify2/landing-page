@@ -228,15 +228,12 @@ footer {
   justify-content: center;
   padding-bottom: 10%;
 }
-footer nav {
-  padding-bottom: 100%;
-}
 footer nav a {
+  background-color: white;
   display: block;
-  color: black;
+  color: #1DB954;
   text-decoration: none;
   font-weight: bold;
-  border: solid 2px black;
   border-radius: 25px;
   padding-left: 80px;
   padding-right: 80px;
@@ -245,11 +242,9 @@ footer nav a {
   margin-bottom: 5%;
   text-align: center;
 }
-@media (max-width: 900px) {
-  footer nav a {
-    color: white;
-    border: solid 2px white;
-  }
+footer nav a:hover {
+  background-color: #1DB954;
+  color: white;
 }
 html {
   background-image: url(https://images.unsplash.com/photo-1592438938203-f8a7d9b8e26a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80);
@@ -280,6 +275,13 @@ body .third-page h4 {
 body .third-page p {
   padding-top: 5%;
 }
+@media (max-width: 500px) {
+  body .third-page {
+    padding-top: 35%;
+    padding-bottom: 30%;
+    height: auto;
+  }
+}
 body .title-container {
   display: flex;
   justify-content: center;
@@ -297,8 +299,9 @@ body .title-container {
 }
 @media (max-width: 500px) {
   body .title-container {
-    padding-top: 15%;
-    padding-bottom: 20%;
+    padding-top: 30%;
+    padding-bottom: 30%;
+    height: auto;
   }
 }
 body .title-container h3 {
@@ -308,9 +311,11 @@ body .title-container h3 {
 }
 @media (max-width: 500px) {
   body .title-container h3 {
-    font-size: 1.4rem;
+    font-size: 2rem;
     margin-left: 10%;
     font-weight: bold;
+    padding-right: 5%;
+    padding-bottom: 10%;
   }
 }
 body .title-container nav {
