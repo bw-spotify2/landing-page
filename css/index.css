@@ -158,7 +158,7 @@ header h1 {
   margin-left: 0%;
   padding-right: 0%;
   justify-content: none;
-  text-shadow: 2px 2px white;
+  text-shadow: 1px 1px black;
 }
 @media (max-width: 500px) {
   header h1 {
